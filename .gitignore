@@ -1,8 +1,15 @@
-*.js
-!jest.config.js
-*.d.ts
-node_modules
+# Node.js
+node_modules/
+dist/
+.env
 
-# CDK asset staging directory
-.cdk.staging
-cdk.out
+# CDK build
+cdk.out/
+
+# OS i editor fajlovi
+.DS_Store
+.vscode/
+.idea/
+
+# Logovi
+npm-debug.log*
